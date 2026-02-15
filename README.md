@@ -241,8 +241,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Part of the [NextWork Data Engineering with MCP](https://learn.nextwork.org/projects/mcp-data-engineer3) tutorial series
-- Built with [Model Context Protocol](https://modelcontextprotocol.io/)
+This project was inspired by and built following the **[NextWork Data Engineering with MCP](https://learn.nextwork.org/projects/mcp-data-engineer3?track=high)** tutorial series.
+
+Special thanks to:
+- **[NextWork.org](https://nextwork.org)** for creating comprehensive, hands-on data engineering tutorials
+- The [Model Context Protocol](https://modelcontextprotocol.io/) team for developing this innovative AI integration framework
+- The open-source community for tools like PostgreSQL, Jupyter, Docker, and Python
 - Inspired by modern data engineering best practices
 
 ## 📧 Contact
