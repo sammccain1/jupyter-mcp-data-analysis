@@ -1,6 +1,12 @@
-# Jupyter MCP Data Analysis Project
+# Jupyter MCP Data Analysis Pipeline
 
-Interactive data analysis using Jupyter notebooks connected to PostgreSQL through MCP (Model Context Protocol) servers, integrated with Antigravity IDE.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Docker](https://img.shields.io/badge/Docker-Compose-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+AI-powered data analysis pipeline integrating Jupyter notebooks with PostgreSQL through Model Context Protocol (MCP) servers for intelligent database queries and automated visualizations.
 
 ## 📊 Project Overview
 
@@ -9,6 +15,43 @@ This project demonstrates how to:
 - Create interactive Jupyter notebooks for data analysis
 - Visualize customer data with Matplotlib and Seaborn
 - Integrate everything with Antigravity IDE
+
+## ✨ Features
+
+- 🐘 **PostgreSQL Database**: Containerized database with automated initialization
+- 📊 **Interactive Analytics**: 8 comprehensive Jupyter notebook sections
+- 🤖 **AI Integration**: MCP servers for natural language database queries
+- 📈 **Rich Visualizations**: Multiple chart types with Matplotlib & Seaborn
+- 🐳 **Docker Deployment**: Fully containerized for reproducibility
+- 📝 **Complete Documentation**: Detailed setup and usage guides
+
+## 🏗️ Architecture
+
+```
+┌─────────────────┐
+│   Antigravity   │
+│   (AI IDE)      │
+└────────┬────────┘
+         │
+         │ MCP Protocol
+         │
+    ┌────┴────┐
+    │         │
+┌───▼──┐  ┌──▼────┐
+│ PG   │  │Jupyter│
+│ MCP  │  │ MCP   │
+└───┬──┘  └──┬────┘
+    │        │
+┌───▼────────▼───┐
+│   PostgreSQL   │
+│   (Docker)     │
+└────────────────┘
+         │
+    ┌────▼────┐
+    │ Jupyter │
+    │Notebook │
+    └─────────┘
+```
 
 ## 🚀 Quick Start
 
@@ -187,3 +230,33 @@ docker-compose down -v
 ---
 
 **Part of the NextWork Data Engineering with MCP tutorial series**
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Part of the [NextWork Data Engineering with MCP](https://learn.nextwork.org/projects/mcp-data-engineer3) tutorial series
+- Built with [Model Context Protocol](https://modelcontextprotocol.io/)
+- Inspired by modern data engineering best practices
+
+## 📧 Contact
+
+Sam McCain - [LinkedIn](https://linkedin.com/in/yourprofile) - [Email](mailto:smccain43@yahoo.com)
+
+Project Link: [https://github.com/sammccain1/jupyter-mcp-data-analysis](https://github.com/sammccain1/jupyter-mcp-data-analysis)
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please consider:
+- ⭐ Starring this repository
+- 🍴 Forking it for your own use
+- 📢 Sharing it with others
+- 🐛 Reporting issues or suggesting improvements
+
+Your support helps make this project better!
