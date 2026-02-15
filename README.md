@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Sam McCain - [LinkedIn](https://linkedin.com/in/yourprofile) - [Email](mailto:smccain43@yahoo.com)
+Sam McCain - [LinkedIn](https://linkedin.com/in/sammccain) - [Email](mailto:smccain43@yahoo.com)
 
 Project Link: [https://github.com/sammccain1/jupyter-mcp-data-analysis](https://github.com/sammccain1/jupyter-mcp-data-analysis)
 
