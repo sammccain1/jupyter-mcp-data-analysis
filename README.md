@@ -126,8 +126,9 @@ The `mcp-config.json` file configures two MCP servers:
 
 ### PostgreSQL MCP Server
 - Connects to the local PostgreSQL database
-- Allows AI assistants to query the database
+- Allows AI assistants to query the database using natural language
 - Connection string: `postgresql://postgres:postgres@localhost:5432/customerdb`
+- **📖 See [PostgreSQL MCP Guide](docs/POSTGRES_MCP.md) for detailed documentation**
 
 ### Jupyter MCP Server
 - Integrates Jupyter notebooks with Antigravity
