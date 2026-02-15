@@ -1,0 +1,7 @@
+jupyter
+notebook
+psycopg2-binary
+matplotlib
+pandas
+numpy
+seaborn

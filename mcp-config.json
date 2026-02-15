@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+        "postgres": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql://postgres:postgres@localhost:5432/customerdb"
+            ]
+        },
+        "jupyter": {
+            "command": "uvx",
+            "args": [
+                "mcp-server-jupyter"
+            ],
+            "env": {
+                "JUPYTER_PATH": "/Users/sammccain/DATA-MCP"
+            }
+        }
+    }
+}
