@@ -14,7 +14,7 @@
                 "mcp-server-jupyter"
             ],
             "env": {
-                "JUPYTER_PATH": "/Users/sammccain/DATA-MCP"
+                "JUPYTER_PATH": "/path/to/jupyter-mcp-data-analysis"
             }
         }
     }
