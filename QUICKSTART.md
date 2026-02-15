@@ -5,7 +5,7 @@
 ### Start the Project
 ```bash
 # Navigate to project
-cd /Users/sammccain/DATA-MCP
+cd /path/to/jupyter-mcp-data-analysis
 
 # Start PostgreSQL
 docker-compose up -d

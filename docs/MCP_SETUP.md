@@ -30,7 +30,7 @@ The `mcp-config.json` file contains the server configurations:
         "mcp-server-jupyter"
       ],
       "env": {
-        "JUPYTER_PATH": "/Users/sammccain/DATA-MCP"
+        "JUPYTER_PATH": "/path/to/jupyter-mcp-data-analysis"
       }
     }
   }
@@ -89,7 +89,7 @@ Already installed via pip:
 python3 -m pip install mcp-server-jupyter --user
 ```
 
-The server is located at: `/Users/sammccain/Library/Python/3.11/bin/mcp-server-jupyter`
+The server is typically located at: `~/.local/bin/mcp-server-jupyter` or `~/Library/Python/3.11/bin/mcp-server-jupyter`
 
 ## Testing the Setup
 
@@ -140,7 +140,7 @@ You should be able to ask:
    
    If not found, you may need to use the full path:
    ```json
-   "command": "/Users/sammccain/Library/Python/3.11/bin/mcp-server-jupyter"
+   "command": "~/Library/Python/3.11/bin/mcp-server-jupyter"
    ```
 
 3. **Verify Jupyter is accessible**:

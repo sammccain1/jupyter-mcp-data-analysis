@@ -58,7 +58,7 @@ This project demonstrates how to:
 ### 1. Start PostgreSQL Database
 
 ```bash
-cd /Users/sammccain/DATA-MCP
+cd /path/to/jupyter-mcp-data-analysis
 docker-compose up -d
 ```
 
@@ -132,7 +132,7 @@ The `mcp-config.json` file configures two MCP servers:
 ### Jupyter MCP Server
 - Integrates Jupyter notebooks with Antigravity
 - Enables AI-assisted notebook development
-- Workspace path: `/Users/sammccain/DATA-MCP`
+- Workspace path: `/path/to/jupyter-mcp-data-analysis`
 
 ## 🛠️ Setup Instructions
 
@@ -144,7 +144,7 @@ The `mcp-config.json` file configures two MCP servers:
 
 1. **Clone or navigate to project directory**
    ```bash
-   cd /Users/sammccain/DATA-MCP
+   cd /path/to/jupyter-mcp-data-analysis
    ```
 
 2. **Install Python dependencies**
